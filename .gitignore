@@ -1,0 +1,28 @@
+# Node.js specific
+node_modules/
+dist/
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript specific
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+logs/**/*.log
+
+# Ignore files inside recordings and transcriptions, but keep the folders
+recordings/*
+transcriptions/*
+
+# Ignore everything in recordings and transcriptions except for the folders
+!recordings/.gitkeep
+!transcriptions/.gitkeep
+
+# If you want to keep any specific config files in these folders, add exceptions
+# Example:
+# !recordings/some-config.json
+# !transcriptions/another-config.yaml
